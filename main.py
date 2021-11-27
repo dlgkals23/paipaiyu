@@ -6,8 +6,6 @@ time = f"{str(now.year)}년 {str(now.month)}월 {str(now.day)}일 {str(now.hour)
 
 client = discord.Client()
 
-token = "OTA0ODQ5MzQ0OTY3MDkwMjQ4.YYBgnw.ZJgP7FvKhpJS9BcHt3zUG2YXBJg"
-
 @client.event
 async def on_ready():
     print(client.user.id)
